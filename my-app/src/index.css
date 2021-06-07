@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.beast{
+  width: 20%;
+  display:inline-block;
+  margin: 2.5%;
+}
