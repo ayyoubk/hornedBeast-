@@ -5,30 +5,43 @@ class HornedBeast extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      beastTitle: this.props.title,
-      beastImg: this.props.img,
-      beastInfo: this.props.info,
-      votesNum: 0,
-
+      clickingCounter: 0
     };
   }
-  voteForIt = () => {
-    this.setState({
-      votesNum: this.state.votesNum += 1,
+  increaseFavorites = () => {
+    this.setState(
+      {
+        clickingCounter: this.state.clickingCounter + 1
+      }
+    );
+  }
+
+  showing = () => {
+    this.props.showing({
+      title: this.props.title,
+      description: this.props.description,
+      image_url: this.props.image_url
     });
   }
-  render() {
 
+  render() {
     return (
 
-      <Card border="dark" style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={this.state.beastImg} onClick={this.voteForIt}/>
-        <Card.Body>
-          <Card.Title>{this.state.beastTitle}</Card.Title>
-          <Card.Text>&#x2B50; {this.state.votesNum} votes</Card.Text>
-          <Card.Text>{this.state.beastInfo}</Card.Text>
-        </Card.Body>
-      </Card>
+      <div class='cards'>
+        <Card style={{ width: '18rem' }} class='card' onClick={this.showing}>
+          <Card.Img onClick={this.increaseFavorites} variant="top" src={this.props.image_url} />
+          <Card.Body>
+            <Card.Text>
+              {this.props.title}
+            </Card.Text>
+            <Card.Text>
+              {this.props.description}
+            </Card.Text>
+            <Card.Text> &#x2B50; {this.state.clickingCounter}
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </div>
     );
   }
 }

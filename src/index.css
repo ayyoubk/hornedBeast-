@@ -12,3 +12,10 @@ code {
     monospace;
 }
 
+img{
+  height: 250px;
+}
+.cards{
+  width: 20%;
+  margin: 2.5%;
+}
