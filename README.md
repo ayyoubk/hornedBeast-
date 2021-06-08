@@ -4,23 +4,38 @@
 
 ### Lab - Class-02
 
-Number and name of feature: #1: Display images
+Number and name of feature: **1: Display images**
 
-Estimate of time needed to complete: 30 min
+Estimate of time needed to complete: **30 min**
 
-Start time: 2:00 pm
+Start time: **2:00 pm**
 
-Finish time: 2:40 pm
+Finish time: **2:40 pm**
 
-Actual time needed to complete: 40 min
----------------------------
+Actual time needed to complete: **40 min**
 
-Number and name of feature: #2: Allow users to vote for their favorite beast
+------------------------------------------
 
-Estimate of time needed to complete: 30 min
+Number and name of feature: **2: Allow users to vote for their favorite beast**
 
-Start time: 2:40 pm
+Estimate of time needed to complete: **30 min**
 
-Finish time: 3:00 pm
+Start time: **2:40 pm**
 
-Actual time needed to complete: 20 min
+Finish time: **3:00 pm**
+
+Actual time needed to complete: **20 min**
+
+
+
+### Lab - Class-03
+
+Number and name of feature: **Display a Modal**
+
+Estimate of time needed to complete: **2 hr**
+
+Start time: **2:00 pm**
+
+Finish time: **4:00 pm**
+
+Actual time needed to complete: **2 hs**
