@@ -12,7 +12,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      element: data,
+      dataToShow: data,
       show: false,
       obj: {}
     };
@@ -30,11 +30,12 @@ class App extends React.Component {
       show: false,
     });
   }
+
   render() {
     return (
       <div>
         <Header />
-        <Main data={this.state.element} showing={this.HornedCardShowing} />
+        <Main data={this.state.dataToShow} showing={this.HornedCardShowing} />
         <SelectedBeast show={this.state.show} dontShowCard={this.dontShowCard} obj={this.state.obj} />
         <Footer />
       </div>
