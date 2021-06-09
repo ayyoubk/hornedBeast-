@@ -39,3 +39,15 @@ Start time: **2:00 pm**
 Finish time: **4:00 pm**
 
 Actual time needed to complete: **2 hs**
+
+### Lab - Class-04
+
+Number and name of feature: **Filter by Numbers of Horns**
+
+Estimate of time needed to complete: **1.5 hr**
+
+Start time: **2:00 pm**
+
+Finish time: **4:00 pm**
+
+Actual time needed to complete: **2 hs**
